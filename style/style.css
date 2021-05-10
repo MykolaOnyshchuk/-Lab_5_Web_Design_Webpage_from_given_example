@@ -1,0 +1,311 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    width: 100%;
+    height: 44vw;
+    background: url(../img/mount.jpg);
+    background-size: 100%;
+    font-family: "Segoe UI";
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 2.3vw;
+}
+
+.the {
+    display: block;
+    font-size: 3vw;
+    border-width: 5px;
+    border-style: solid;
+    margin-top: 40px;
+}
+
+.moon {
+    display: block;
+    font-size: 3vw;
+    margin: 5px;
+    margin-top: 45px;
+    font-weight: 500;
+}
+
+#whiteBackgroundWrap {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#whiteBackgroundBorder{
+    position: relative;
+    width: 65.6vw;
+    height: 30.6vw;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+}
+
+#whiteBackground {
+    position: absolute;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 65vw;
+    height: 30vw;
+    top: 0.3vw;
+    left: 0.3vw;
+    font-family: "Segoe UI";
+    text-align: center;
+}
+
+#header1 {
+    display: block;
+    font-size: 2.5vw;
+    font-weight: bold;
+    flex-wrap: wrap;
+    flex:0 1 33%;
+    height: 3vw;
+    margin-top: 4vw;
+}
+
+#header2 {
+    display: block;
+    font-size: 2.5vw;
+    font-weight: bold;
+    flex-wrap: wrap;
+    margin-left: 1vw;
+    color: gold;
+    flex:0 1 32%;
+    height: 3vw;
+    margin-top: 4vw;
+}
+
+#headerText {
+    position: absolute;
+    top: 12vw;
+    left: 1vw;
+    font-size: 2vw;
+    display: block;
+    flex: 1 0 40%;
+    height: 5vw;
+    padding-left: 12vw;
+    padding-right: 12vw;
+}
+
+#headerButton {
+    position: absolute;
+    top: 22.5vw;
+    left: 23vw;
+    background-color: gold;
+    color: white;
+    cursor: pointer;
+    width: 20vw;
+    font-size: 1.5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+#headerButton:hover {
+    animation-name: rotation;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.5s;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#ourBenefitsHeader {
+    font-family: "Segoe UI";
+    font-size: 3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5vw;
+}
+
+#deseru {
+    margin-right: 0.8vw;
+}
+
+#inciduEx {
+    font-weight: bold;
+    color: gold;
+}
+
+#ourBenefits {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Segoe UI";
+    font-size: 1.3vw;
+    text-align: center;
+    margin-top: 5vw;
+}
+
+.ourBenefitsWrap {
+    width: 12vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 2vw;
+}
+
+.ourBenefitsImg {
+    width: 12vw;
+}
+
+#feedbackForm {
+    background: url(../img/field.jpg);
+    width: 100%;
+    background-size: 100%;
+    height: 30vw;
+    font-family: "Segoe UI";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#feedbackWrap {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#feedbackInput {
+    width: 30vw;
+    height: 5vw;
+    padding-left: 2vw;
+}
+
+#feedbackInput::placeholder {
+    font-size: 1.45vw;
+}
+
+#feedbackButton {
+    width: 17vw;
+    background-color: gold;
+    color: white;
+    text-align: center;
+    font-size: 1.5vw;
+    padding-bottom: 1.2vw;
+    padding-top: 1.2vw;
+    max-height: 3vw;
+    margin-left: 5vw;
+    cursor: pointer;
+}
+
+#feedbackButton:hover {
+    animation-name: skew;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.5s;
+}
+
+@keyframes skew {
+    0%, 100% {
+        transform: skew(0deg);
+    }
+    50% {
+        transform: skew(45deg);
+    }
+}
+
+#stepsHeader {
+    font-family: "Segoe UI";
+    font-size: 3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+#temQu {
+    margin-right: 0.8vw;
+}
+
+#voluptat {
+    font-weight: bold;
+    color: gold;
+}
+
+#lineWrap {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#line {
+    margin-bottom: 2vw;
+    width: 67.6%;
+}
+
+#numbersWrap {
+    font-family: "Segoe UI";
+    position: relative;
+}
+
+.number {
+    color: gold;
+    font-weight: bold;
+    font-size: 3vw;
+    margin: 0;
+}
+
+#number1Wrap {
+    position: absolute;
+    top:0;
+    left: 12vw;
+    text-align: center;
+    width: 10vw;
+}
+
+#number2Wrap {
+    position: absolute;
+    top: 0;
+    left: 34vw;
+    text-align: center;
+    width: 10vw;
+}
+
+#number3Wrap {
+    position: absolute;
+    top: 0;
+    left: 55.5vw;
+    text-align: center;
+    width: 10vw;
+}
+
+#number4Wrap {
+    position: absolute;
+    top: 0;
+    left: 77vw;
+    text-align: center;
+    width: 10vw;
+}
+
+footer {
+    margin-top: 10vw;
+    width: 100%;
+    height: 9.5vw;
+    font-family: "Segoe UI";
+    background: linear-gradient(to right, #947D97, #858583);
+}
